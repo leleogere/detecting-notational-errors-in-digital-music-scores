@@ -1,0 +1,24 @@
+[project]
+name = "detecting-notational-errors-in-digital-music-scores"
+version = "0.0.1"
+description = 'Official repository for the article "Detecting Notational Errors in Digital Music Scores", published at TENOR 2025.'
+authors = [{ name = "Léo Géré", email = "leleogere@gmail.com" }]
+urls = { "Homepage" = "https://github.com/leleogere/detecting-notational-errors-in-digital-music-scores" }
+dependencies = [
+    "click==8.3.0",
+    "joblib==1.5.2",
+    "lxml==6.0.1",
+    "partitura==1.7.0",
+    "tqdm==4.67.1",
+]
+
+[project.optional-dependencies]
+dev = ["black>=24.8.0"]
+
+[project.entry-points."console_scripts"]
+detect_errors = "cli:cli"
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+skip-string-normalization = true

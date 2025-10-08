@@ -1,0 +1,5 @@
+.idea
+*.egg-info
+*.json
+__pycache__
+lib
