@@ -1,7 +1,7 @@
 # Detecting Notational Errors in Digital Music Scores
 
-![Static Badge](https://img.shields.io/badge/hal-05294807-00005c?link=https%3A%2F%2Fhal.science%2Fhal-05294807)
-![Static Badge](https://img.shields.io/badge/arXiv-2510.02746-b31b1b?link=https%3A%2F%2Fwww.arxiv.org%2Fabs%2F2510.02746)
+[![HAL Badge](https://img.shields.io/badge/hal-05294807-00005c)](https://hal.science/hal-05294807)
+[![ArXiv Badge](https://img.shields.io/badge/arXiv-2510.02746-b31b1b)](https://www.arxiv.org/abs/2510.02746)
 
 This repository contains the official code to reproduce the results of the article
 ["Detecting Notational Errors in Digital Music Scores", TENOR 2025, L. Géré, N. Audebert, and F. Jacquemard](https://hal.science/hal-05294807).
