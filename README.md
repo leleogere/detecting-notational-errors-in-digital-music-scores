@@ -44,7 +44,7 @@ cd asap-dataset
 git checkout afc815c75c42e83a79c03feb6da8a35e77d4c6b8
 ```
 
-You will also need the exact version of Partitura specified in the `requirements.txt` file (1.7.0), 
+You will also need the exact version of Partitura specified in the `pyproject.toml` file (1.7.0), 
 as some errors can be caused by Partitura issues.
 
 To reproduce the results in table 2 of the paper, simply run the following command:
